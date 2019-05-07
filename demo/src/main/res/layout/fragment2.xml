@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+
+        <ImageButton
+            android:id="@+id/friend_call"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="70dp"
+            android:scaleType="fitXY"
+            android:background="#0000"
+            android:src="@drawable/friend_yuyin"
+
+            />
+
+        <ImageButton
+            android:id="@+id/friend_cc"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/friend_call"
+            android:background="#0000"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/friend_shop"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/shop"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同伴来电"
+            android:layout_marginLeft="70dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同伴语音"
+            android:layout_marginLeft="45dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商城"
+            android:layout_marginLeft="60dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#aa000000" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:text="干货精选"
+        android:textStyle="bold"
+      android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+     />
+
+    <ImageButton
+        android:layout_width="345dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pp4"
+        android:background="#0000"
+
+        />
+
+    <ImageButton
+        android:layout_width="345dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pp5"
+        android:background="#0000"
+
+        />
+</LinearLayout>
+</LinearLayout>

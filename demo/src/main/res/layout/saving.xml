@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+
+        />
+
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:src="@drawable/bt_blue"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/position_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/showtime"
+        android:text="00"
+        android:textSize="40dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="23dp"
+
+
+        />
+
+    <ImageButton
+        android:id="@+id/stop_save"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/stop__save"
+        android:scaleType="fitXY"
+        android:background="#0000"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="500dp"
+        />
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="后自动发起求助"
+        android:textSize="15dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/now_nervious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我感到紧张了"
+        android:textColor="@color/white"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/shape_button"
+        />
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="330dp"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@drawable/return_bell"
+            android:scaleType="fitXY"
+            android:background="#0000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="伪装语音"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@drawable/fake_sound"
+            android:scaleType="fitXY"
+            android:layout_marginTop="30dp"
+            android:background="#0000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="伪装来电"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

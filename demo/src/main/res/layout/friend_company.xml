@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000">
+
+    <ImageView
+        android:layout_width="182dp"
+        android:layout_height="167dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="200dp"
+
+        android:scaleType="fitXY"
+
+        android:src="@drawable/black"
+
+        />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+
+
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="305dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/set_friend"
+
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+
+
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="220dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/set_time"
+
+        />
+
+    <ImageButton
+        android:id="@+id/set_time"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="215dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        android:src="@drawable/jian"
+
+        />
+
+    <ImageButton
+        android:id="@+id/set_friend"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:src="@drawable/jian"
+        android:scaleType="fitXY"
+        android:background="#0000"
+        android:layout_marginTop="295dp"
+        android:layout_marginLeft="220dp"
+
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/setting"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            android:text="情景化设置"
+            android:src="@drawable/save_setting"
+            android:scaleType="fitXY"
+            android:background ="#0000"
+            />
+
+
+        <ImageButton
+            android:id="@+id/fsave"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="200dp"
+            android:text="立即求助"
+            android:scaleType="fitXY"
+            android:src="@drawable/save1"
+            android:background ="#0000"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="情景化设置"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="立即求助"
+        android:textSize="15dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
+            android:text="小提示：出门在外，小心安全"
+            android:textSize="10dp"
+            android:textColor="@color/green"
+            />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:text="x"
+            android:textColor="@color/white"
+
+            android:textSize="40dp"
+            android:background ="#0000"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
